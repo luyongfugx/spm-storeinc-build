@@ -116,7 +116,7 @@ function loadTasks() {
     'grunt-contrib-copy',
     'grunt-contrib-cssmin',
     'grunt-contrib-clean',
-    'grunt-contrib-storeinc'
+    'grunt-spm-storeinc'
   ].forEach(function(task) {
     var taskdir = path.join(__dirname, 'node_modules', task, 'tasks');
     if (grunt.file.exists(taskdir)) {

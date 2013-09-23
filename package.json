@@ -1,7 +1,7 @@
 {
   "name": "spm-storeinc-build",
   "description": "a seajs build tool",
-  "version": "1.0.0",
+  "version": "1.0.22",
   "homepage": "https://github.com/luyongfugx/spm-storeinc-build",
   "repository": {
     "type": "git",
@@ -37,10 +37,6 @@
   ],
   "engines": {
     "node": ">0.8.19"
-  },
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js",
-    "uninstall": "node scripts/uninstall.js"
   },
  " readme": "a seajs build tool",
  "readmeFilename": "README.md",
